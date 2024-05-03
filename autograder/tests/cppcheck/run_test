@@ -6,8 +6,8 @@
 # src code references
 source='cppcheck.cpp
   ../redirect_io.h 
-  ../P1.h ../P1.cpp
-  ../P2.h ../P2.cpp
+  ../board.h
+  ../counter.h
   '
 
 cppcheck ${source} -x c++ --enable=all --verbose --error-exitcode=1 --suppressions-list=suppressions.txt

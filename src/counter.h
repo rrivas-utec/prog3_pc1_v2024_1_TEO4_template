@@ -6,5 +6,4 @@
 #define PROG3_PC1_V2024_1_COUNTER_H
 
 
-
 #endif //PROG3_PC1_V2024_1_COUNTER_H

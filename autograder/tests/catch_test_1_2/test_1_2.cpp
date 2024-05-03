@@ -15,7 +15,7 @@ public:
     os << cp.color;
     return os;
   }
-  bool operator==(const checkers_piece& other) { return color == other.color; }
+  bool operator==(const checkers_piece& other) const { return color == other.color; }
 };
 
 static void test_1_2() {
