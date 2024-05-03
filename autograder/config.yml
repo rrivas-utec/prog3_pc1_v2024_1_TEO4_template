@@ -1,0 +1,4 @@
+limit_submissions: -1
+required_files: 
+  - board.h
+  - counter.h
