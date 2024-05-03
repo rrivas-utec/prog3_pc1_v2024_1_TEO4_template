@@ -150,7 +150,7 @@ Crea un arreglo estático con un conjunto predefinido de valores, asegurando la 
 ```
 **Use Case #5:**
 ```cpp
-    utec::board<int, 3, 3> myBoard;
+    utec::board<int, 3, 3> myBoard(-1);
     myBoard(0, 0) = 1;
     myBoard(0, 1) = 1;
     myBoard(0, 2) = 2;
